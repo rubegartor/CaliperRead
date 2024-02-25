@@ -3,10 +3,12 @@
 
 Example of digital dial/caliper indicator reader implemented on an ESP32 with non-blocking code
 
+It will output though Serial connection the result in mm (respect the International System of Units, fuck the inches)
+
 ## How it works 🚀  
 To carry out the tests, the following material was used:
-- Neoteck Indicador de Dial Digital DTI 0.01mm [rubegartor](https://www.amazon.es/dp/B08B183RSK)
-- InnoMaker LA1010 USB Logic Analyzer [rubegartor](https://www.amazon.es/InnoMaker-LA1010-Analyzer-Channels-Instrument/dp/B07D21GG6J)
+- Neoteck Indicador de Dial Digital DTI 0.01mm [https://www.amazon.es/dp/B08B183RSK](https://www.amazon.es/dp/B08B183RSK)
+- InnoMaker LA1010 USB Logic Analyzer [https://www.amazon.es/InnoMaker-LA1010-Analyzer-Channels-Instrument/dp/B07D21GG6J](https://www.amazon.es/InnoMaker-LA1010-Analyzer-Channels-Instrument/dp/B07D21GG6J)
 - ESP32 DevKit
 
 
@@ -27,4 +29,4 @@ Time between readings:
 
 ## License 📄
 
-This project is under the License (MIT) - [LICENSE.MD](LICENSE.MD) for more details
+This project is under the GPL-3.0 license - [LICENSE.MD](LICENSE.MD) for more details
