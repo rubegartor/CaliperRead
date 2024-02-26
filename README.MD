@@ -56,6 +56,11 @@ void setup() {
 void loop() {}
 ```
 
+Output will be:
+```
+1.75
+```
+
 ## Authors ✒️
 
 * **Rubén García** - [rubegartor](https://github.com/rubegartor)
